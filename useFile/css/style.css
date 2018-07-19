@@ -1,0 +1,182 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+.contenedor{
+    width: 95%;
+    margin: 0 auto;
+}
+/*HEADER*/
+div.hero{
+    background-image: url('../img/header.png');
+    height: 430px; 
+    background-position-y: -100px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: top center;
+}
+div.contenido-header{
+    padding-top: 100px;
+}
+nav.redes-sociales{
+    text-align: center;
+}
+nav.redes-sociales a{
+    color: #fff;
+    font-size: 2em;
+    margin-right: 20px;
+}
+nav.redes-sociales a:last-child{
+    margin-right: 0;
+}
+div.informacion{
+    text-align: center;
+    color: #fff;
+}
+
+div.informacion p{
+   margin: 0;
+   display: inline;
+   font-size: 20px;
+   text-transform: uppercase;
+}
+h1.nombre-sitio{    
+    font-size: 5.9vw;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+}
+p.slogan{
+    text-transform: none!important;
+    font-style: italic;
+}
+/*HEADER*/
+/*Barra*/
+nav.navegacion-principal ul{
+    list-style: none;
+    display: flex;
+}
+nav.navegacion-principal{
+    text-align: center;
+}
+nav.navegacion-principal ul li a{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all .15s ease;
+    padding: 5px;
+}
+nav.navegacion-principal ul li a:hover{
+    background-color: #fff;
+    color: #5F4C0B;
+}
+.estil{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff!important;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all .15s ease;
+    padding: 5px;
+}
+.estil:hover{
+    background-color: #fff;
+    color: #5F4C0B!important;
+}
+nav.navegacion-principal ul li ul li{
+    display: none;
+}
+/* nav.navegacion-principal ul li a:last-child{
+    margin-right: 0;
+} */
+
+div.barra{
+    background-color: #5F4C0B;
+    padding: 15px 0;
+}
+/*Barra*/
+
+/*CONTENIDO*/
+
+.paginador{
+    list-style: none;
+}
+.paginador li{
+    float: left;
+    margin: 0 3px;
+    background: #fff;
+    border: 1px solid hsl(0, 0%, 80%);
+    padding: 10px;
+    border-radius: 15px;
+}
+.paginador li a{
+    text-decoration: none;
+}
+/*CONTENIDO*/
+
+/**Galeria*/
+#galeria{
+    border: 1px solid #eaeaea;
+    border-radius: 25px;
+    padding: 20px;
+    padding-bottom: 0;
+    width: 95%;
+    margin: auto;
+}
+#imgMostrar{
+border: 1px solid #f2f2f2;
+border-radius: 25px;
+width: 50%;
+height: 500px;
+}
+
+#galeria_miniatura{
+    display: table;
+    margin: 0 auto;
+}
+.miniatura{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    float: left;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px 5px;
+}
+/*Galeria*/
+
+/*Footer*/
+footer.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #5F4C0B;
+    position: relative;
+    clear: both;
+    margin-top: 0px;
+    padding-top: 0px;
+    overflow: visible;
+}
+/*  */
+
+h1.nombre{
+    padding: 25px;
+    text-align: right;
+    color: #fff;
+    font-size: 2vw;
+    font-family: 'PT Sans', sans-serif;
+}
